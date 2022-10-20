@@ -5,14 +5,31 @@ const Header = () => {
     <Fragment>
         <nav className='navbar row'>
             <div className='col-12 col-md-3'>
-                <div className='navbar-brand'>
-                    <img src= "./images/logo192.png" alt="logo pulgarin"></img>
+                <div className='navbar_brand'>
+                    <img src= "./images/icono.png" alt="logo pulgarin"></img>
                 </div>
             </div>
 
-            <div>
-                
-            </div>
+            <div className='col-12 col-md-6 mt-2 mt-md-0'>
+                <div class="input-group">
+                  <input
+                  type="text"
+                  id="search_field"
+                  class="form-control"
+                  placeholder='Que producto busca?'></input>
+                  <div class="input-group-append">
+                      <button id="search-btn" class="btn">
+                        <i class="fa fa-search-plus fa-2x text-white" aria-hidden="true"></i>
+                      </button>
+                   </div>
+                </div>
+             </div>
+             <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
+               <span><i class="fa fa-user-circle-o text-white" aria-hidden="true"><p>Inicio Sesion</p></i></span>
+              
+              <span><i class="fa fa-cart-plus fa-2x text-white" aria-hidden="true"></i></span>
+              <span className="ml-1" id="cart_count">2</span>
+             </div>
         </nav>
 
     </Fragment>

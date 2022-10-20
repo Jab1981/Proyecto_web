@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-  background-color: #232f3e;
+  background-color: black;
   padding: 1rem 1rem;
 }
 
@@ -116,7 +116,7 @@ nav {
 /* Footer */
 footer {
   margin-top: 8rem;
-  color: grey;
+  color:white;
   bottom: 0;
   width: 100%;
 }
