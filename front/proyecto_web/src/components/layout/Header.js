@@ -1,39 +1,47 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
+import "../../App.css"
 
 const Header = () => {
-  return (
-    <Fragment>
-        <nav className='navbar row'>
-            <div className='col-12 col-md-3'>
-                <div className='navbar_brand'>
-                    <img src= "./images/icono.png" alt="logo pulgarin"></img>
-                </div>
-            </div>
 
-            <div className='col-12 col-md-6 mt-2 mt-md-0'>
-                <div class="input-group">
-                  <input
-                  type="text"
-                  id="search_field"
-                  class="form-control"
-                  placeholder='Que producto busca?'></input>
-                  <div class="input-group-append">
-                      <button id="search-btn" class="btn">
-                        <i class="fa fa-search-plus fa-2x text-white" aria-hidden="true"></i>
-                      </button>
-                   </div>
-                </div>
-             </div>
-             <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
-               <span><i class="fa fa-user-circle-o text-white" aria-hidden="true"><p>Inicio Sesion</p></i></span>
-              
-              <span><i class="fa fa-cart-plus fa-2x text-white" aria-hidden="true"></i></span>
-              <span className="ml-1" id="cart_count">2</span>
-             </div>
-        </nav>
+    return (
+        <Fragment>
 
-    </Fragment>
-  )
-}
+
+
+<nav className='navbar navbar-expand-sm bg-dark navbar-dark'>
+<div className='col-12 col-md-7'>
+  <div className='navbar-brand'>Navbar</div>
+  </div>
+
+  <div className='navbar-form navbar-left'>
+  <div className="form-group" action="/action_page.php">
+    <input class="form-control mr-sm-4" type="text" placeholder="Que producto busca?"></input>
+    <button class="btn btn-success" type="submit">Buscar</button>
+  </div>
+  </div>
+  
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+  <div href="#" class="btn btn-info btn-md">
+          <span class="glyphicon glyphicon-user"></span> Sesion
+        </div>
+        
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <i class="fa fa-shopping-cart fa-2x text-white" aria-hidden="false"></i>
+                    <span className="ml-3" id="cart_count"> 2</span>  
+                    
+                    
+  
+    
+ 
+   
+</nav>
+
+
+
+
+        </Fragment>
+    )
+
+    }
 
 export default Header
