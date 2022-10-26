@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 .navbar{
-  background: #062b4e;
+  background: #053b6d;
 }
 .navbar-form{
   width: 100%;
@@ -59,6 +59,7 @@ footer {
 }
 .card {
   height: 100%;
+  width: 100%;
 }
 .card-title a {
   color: #012b52;

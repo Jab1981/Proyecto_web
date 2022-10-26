@@ -82,10 +82,10 @@ export const Home = () => {
 </div>
 </div>
 </div>
-  <div className='container-fluid text-rigth text-secondary'> 
+  <div className='container-fluid text-rigth'> 
   <h1 className='header-title' id="encabezado_productos">Nuestros Productos</h1>
   </div>
-  <div className='container-fluid text-center text-secondary'> 
+  <div className='container-fluid text-center'> 
   <h2 className='header'id="encabezado_productos">Impresoras 3D</h2>
   </div>
   <section id="productos" className='container mt-5'>
@@ -125,7 +125,7 @@ export const Home = () => {
                         </div>
                         <span id="No_opiniones" > 5 reviews</span>
                     </div>
-                    <p className='card-text'>$4.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                    <p className='card-text'>$5.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@ export const Home = () => {
                         </div>
                         <span id="No_opiniones" > 5 reviews</span>
                     </div>
-                    <p className='card-text'>$4.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                    <p className='card-text'>$11.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
                 </div>
             </div>
         </div>
@@ -165,16 +165,108 @@ export const Home = () => {
                         </div>
                         <span id="No_opiniones" > 5 reviews</span>
                     </div>
-                    <p className='card-text'>$4.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                    <p className='card-text'>$14.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
                 </div>
             </div>
         </div>
-
+        
         
     </div>
 
   </section>
-    
+
+{/* Seccion 2*/}
+  <div className='container-fluid text-center text-secondary'> 
+  <h2 className='header'id="encabezado_productos">Placas para impresión Litográfica</h2>
+  </div>
+  <section id="productos" className='container mt-5'>
+    <div className='row'>
+        {/*item 1*/}
+        <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
+            <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+                <img className='card-img-top mx-auto' src='./images/placa.jpg' alt='placa'></img>
+                <div className='card-body d-flex flex-column'>
+                    <h4 className='card-title'  id="placa"><a href='http://localhost:3000'>Plancha CTP KTP-EX x 100 und</a></h4>
+                    <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'> $670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                </div>
+            </div>
+        </div>
+
+         {/*item 2*/}
+         <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
+            <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+                <img className='card-img-top mx-auto' src='./images/placa2.jpg' alt='placa2'></img>
+                <div className='card-body d-flex flex-column'>
+                    <h4 className='card-title'  id="placa2"><a href='http://localhost:3000'>Plancha CTP KLP-HD x 100 und</a></h4>
+                    <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'> $770.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                </div>
+            </div>
+        </div>
+
+         {/*item 3*/}
+         <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
+            <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+                <img className='card-img-top mx-auto' src='./images/placa3.jpg' alt='placa3'></img>
+                <div className='card-body d-flex flex-column'>
+                    <h4 className='card-title'  id="placa3"><a href='http://localhost:3000'>Plancha CTP KTP-SR x 100 und</a></h4>
+                    <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'> $860.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                </div>
+            </div>
+        </div>
+
+          {/*item 4*/}
+          <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
+            <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+                <img className='card-img-top mx-auto' src='./images/placa4.jpg' alt='placa4'></img>
+                <div className='card-body d-flex flex-column'>
+                    <h4 className='card-title'  id="placa4"><a href='http://localhost:3000'>Plancha CTP KTP-PT x 100 und</a></h4>
+                    <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'>$930.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+                </div>
+            </div>
+        </div>
+       </div>
+  </section>
+  <div className='container-fluid text-center'> 
+  <h2 className='header'id="encabezado_productos">Impresión Litográfica</h2>
+  </div>
+  <br></br>
+ 
     </Fragment>
   )
 }
