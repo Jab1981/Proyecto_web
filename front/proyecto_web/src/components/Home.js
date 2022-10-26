@@ -21,30 +21,30 @@ export const Home = () => {
   </div>
   
 
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./images/impresion3d.jpg" alt="Los Angeles"  ></img>
+      <img src="./images/impresion3d.jpg" alt="impresion3d"  ></img>
       <div class="carousel-caption">
         <h3>Cuentanos tu idea</h3>
         <p>En litografia Pulgarin lo hacemos realidad!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./images/impresion3d_2.jpg" alt="Chicago"></img>
+      <img src="./images/impresion3d_2.jpg" alt="impresion3d_2"></img>
       <div class="carousel-caption">
         <h3>Medicina 3D</h3>
         <p>Diseño y fabricación de Medical Device</p>
       </div> 
     </div>
     <div class="carousel-item">
-      <img src="./images/impresion3d_3.jpg" alt="New York"  ></img>
+      <img src="./images/impresion3d_3.jpg" alt="impresion3d_3."></img>
       <div class="carousel-caption">
         <h3>Publicidad 3D</h3>
         <p>Diseño comercial y publicitarios</p>
       </div>  
     </div>
     <div class="carousel-item">
-      <img src="./images/impresion3d_4.jpg" alt="New York"  ></img>
+      <img src="./images/impresion3d_4.jpg" alt="impresion3d_4"  ></img>
       <div class="carousel-caption">
         <h3>Industrial 3D</h3>
         <p>Diseño industrial de vanguardia</p>
@@ -52,10 +52,10 @@ export const Home = () => {
     </div>
   </div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="http://localhost:3000demo" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="http://localhost:3000demo" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
   </div>
@@ -170,25 +170,7 @@ export const Home = () => {
             </div>
         </div>
 
-         {/*item 5*/}
-         <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
-            <div className='card bg-light mb-3 rounded'>
-            <div class="card-header"></div>
-                <img className='card-img-top mx-auto' src='./images/fresanora_cnc.jpg' alt='fresanora_cnc'></img>
-                <div className='card-body d-flex flex-column'>
-                    <h4 className='card-title'  id="fresanora_cnc"><a href='http://localhost:3000'>Fresanora_cnc</a></h4>
-                    <div className='rating mt-auto'>
-                        <div className='rating-outer'>
-                            <div className='rating-inner'>
-
-                            </div>
-                        </div>
-                        <span id="No_opiniones" > 5 reviews</span>
-                    </div>
-                    <p className='card-text'>$4.670.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
-                </div>
-            </div>
-        </div>
+        
     </div>
 
   </section>
