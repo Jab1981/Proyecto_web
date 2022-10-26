@@ -5,7 +5,7 @@ export const Footer = () => {
     <Fragment>
         <footer className="py-1">
             <p className="text-center mt-1">
-                Scrum Team @ 2022-Mintic
+                Scrum Team @ Mintic-2022
             </p>
         </footer>
     </Fragment>
