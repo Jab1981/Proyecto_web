@@ -34,9 +34,10 @@ footer {
 .carousel-inner img {
   width: 100%;
   margin: auto;
-  max-height:100px;
+  max-height:150px;
   min-height:430px;
 }
+
 
 @media (max-width:600px) {
 .carousel-caption {
@@ -79,6 +80,15 @@ footer {
 .card-img-top {
   width: 200px;
   height: 150px;
+}
+.img-fluid{
+  width: 80%;
+  margin: 8px;
+  padding-left: 10px;
+}
+
+.card mb-3{
+  width: 200px;
 }
 
 .ratings {

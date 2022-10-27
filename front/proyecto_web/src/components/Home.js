@@ -60,19 +60,19 @@ export const Home = () => {
   </button>
   </div>
 </div>
-<div class="col-md-5">
-<div class="well">
+<div class="col-md-5 ">
+<div class="well my-3">
       <p>La impresión 3D para el sector Salud supone un avance muy importante.
          Permite ” la obtención de formulaciones y productos ” 
          que pueden adaptarse mejor a las características y necesidades de los pacientes, 
          en la línea de los tratamientos basados en la medicina personalizada.</p>
     </div>
-    <div class="well">
+    <div class="well my-3">
        <p>Gracias a nuestra tecnología profesional de gran tamaño podremos realizar impresión 3D 
         de gran formato para empresas alcanzando los 310 x 310 x 500 mm en una sola 
         pieza o incluso mayores tamaños con el uso de ensamblaje de varias piezas.</p>
     </div>
-    <div class="well">
+    <div class="well my-3">
        <p>Para imprimir en 3D es necesario un archivo de la pieza en cuestión, 
         para ello puedes diseñarlo tu mismo y enviarlo a nuestro 
         servicio de impresión 3D o confiar en nuestro equipo de diseño y crearemos 
@@ -262,11 +262,187 @@ export const Home = () => {
         </div>
        </div>
   </section>
-  <div className='container-fluid text-center'> 
+
+  {/*Impresion Litografica*/}
+  <div className='container-fluid text-center text-secondary'> 
   <h2 className='header'id="encabezado_productos">Impresión Litográfica</h2>
   </div>
-  <br></br>
- 
+  <div className="container">
+  <div className="row">
+  <div className="col-sm-6 col-md-6 mt-5" >
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+</div>
+
+<div className="carousel-inner">
+  <div class="carousel-item active">
+    <img src="./images/impresion.jpg" alt="impresion"  ></img>
+    <div class="carousel-caption">
+      <h3>Litografia Pulgarin</h3>
+      <p>Utilizamos las mejores tecnicas de impresión</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="./images/impresion2.jpg" alt="impresion2"></img>
+    <div class="carousel-caption">
+      <h3>Las mejores tintas de Impresiòn</h3>
+      <p>Productos creados a la medida para ofrecer la tecnología de impresión concreta</p>
+    </div> 
+  </div>
+  <div class="carousel-item">
+    <img src="./images/impresion3.jpg" alt="impresion3."></img>
+    <div class="carousel-caption">
+      <h3>Publicidad</h3>
+      <p>Diseño comercial y publicitarios</p>
+    </div>  
+  </div>
+  <div class="carousel-item">
+    <img src="./images/impresion4.jpg" alt="impresion4"  ></img>
+    <div class="carousel-caption">
+      <h3>Proyectos de gran escala</h3>
+      <p>Realizamos impresión personalizada con la imagen de tu empresa o negocio</p>
+    </div>  
+  </div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+
+</div>
+<div className="col-sm-6 col-md-6">
+<div className="row">
+<div className="col-sm-6 col-md-6 col-lg-12 mt-5 my-5">
+<div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+<div class="card mt-3 " >
+        <div class="row g-0 d-flex">
+          <div class="col-4">
+            <img class="img-fluid rounded-start h-100" src="./images/formato.jpg" alt="formato" ></img>
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+            <h4 className='card-title'  id="formato"><a href='http://localhost:3000'>Volantes 1 cara x 100 und</a></h4>
+            
+            <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'>$930.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+</div>
+
+</div>
+ <div className="row">
+ <div className="col-sm-6 col-md-6 col-lg-12 my-4">
+ <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+ <div class="card mt-3 " >
+        <div class="row g-0 d-flex">
+          <div class="col-4">
+            <img class="img-fluid rounded-start h-100" src="./images/formato2.jpg" alt="formato2" ></img>
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+            <h4 className='card-title'  id="formato2"><a href='http://localhost:3000'>Talonarios o Facturas x 100 und</a></h4>
+            <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'>$930.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ </div>
+ </div>
+ </div>
+
+</div>
+</div> {/* Caurese*/}
+  </div>
+
+<section id="productos" className='container mt-3'>
+  <div className='row'>
+  <div class="col-sm-6 col-md-6 col-lg-6 my-6">
+  <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+      <div class="card mt-3 " >
+        <div class="row g-0 d-flex">
+          <div class="col-4">
+            <img class="img-fluid rounded-start h-100" src="./images/formato3.jpg" alt="formato3" ></img>
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+            <h4 className='card-title'  id="formato3"><a href='http://localhost:3000'>Carpetas Corporativas x 100 und</a></h4>
+           <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'>$930.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6 my-6">
+    <div className='card bg-light mb-3 rounded'>
+            <div class="card-header"></div>
+      <div class="card mt-3 " >
+        <div class="row g-0 d-flex">
+          <div class="col-4">
+            <img class="img-fluid rounded-start h-100" src="./images/formato4.jpg" alt="formato4" ></img>
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+            <h4 className='card-title'  id="pformato4"><a href='http://localhost:3000'>Plegables O Brochures x 100 und</a></h4>
+               <div className='rating mt-auto'>
+                        <div className='rating-outer'>
+                            <div className='rating-inner'>
+
+                            </div>
+                        </div>
+                        <span id="No_opiniones" > 5 reviews</span>
+                    </div>
+                    <p className='card-text'>$930.000</p><a href='http://localhost:3000' id="ver_producto" className='btn btn-primary'>Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+</section>
+
     </Fragment>
   )
 }
