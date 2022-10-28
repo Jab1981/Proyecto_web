@@ -1,9 +1,17 @@
-import React, { Fragment } from 'react'
-
+import React, { Fragment, useEffect } from 'react'
+import MetaData from './layout/MetaData'
+import { useDispatch } from 'react-redux'
+import { getProducts } from '../actions/productActions'
 
 export const Home = () => {
+  
+  const dispatch = useDispatch();
+  useEffect(()=>{dispatch(getProducts());
+  }, [dispatch])
+
   return (
     <Fragment>
+      <MetaData title="La mejor Preprensa"></MetaData>
 <div className="jumbotron text-center" id="titulo">
   <h1>Impresiones 3D</h1>
   <p>Ofrecemos impresiones 3D de alta calidad!</p>
