@@ -1,0 +1,36 @@
+{
+    "item": [
+        {
+            "_id": "635bfb9135b3b3e22df674b3",
+            "producto": "Impresora 3D Pri3",
+            "precio": 780000,
+            "imagen": "./images/impresora_pri3.jpg",
+            "inventario": 10,
+            "__v": 0
+        },
+        {
+            "_id": "635bfd8835b3b3e22df674ba",
+            "nombre": "Impresora 3D Pri5",
+            "precio": 980000,
+            "imagen": "./images/impresora_pri5.jpeg",
+            "inventario": 9,
+            "__v": 0
+        },
+        {
+            "_id": "635c051553cde1722421c459",
+            "nombre": "Impresora Titan 300",
+            "precio": 980000,
+            "imagen":  "./images/impresora_titan300.jpeg",
+            "inventario": 9,
+            "__v": 0
+        },
+        {
+            "_id": "635c054953cde1722421c45c",
+            "nombre": "Impresora Titan 500",
+            "precio": 980000,
+            "imagen":"./images/impresora_titan500.jpeg",
+            "inventario": 9,
+            "__v": 0
+        }
+    ]
+}

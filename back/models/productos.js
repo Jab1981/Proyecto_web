@@ -39,9 +39,9 @@ const productosSchema=mongoose.Schema({
         required: [true,"Por favor seleccione la categoria del producto."],
         enum:{
             values:[
-                "Alimento seco",
-                "Alimento humedo",
-                "Accesorios"
+                "Impresora 3D",
+                "Placas",
+                "Insumos"
             ]
         }
     },
